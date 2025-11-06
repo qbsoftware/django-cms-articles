@@ -16,7 +16,7 @@ from django.template.defaultfilters import slugify
 from django.template.loader import get_template
 from django.utils.encoding import force_str
 from django.utils.timezone import now
-from djangocms_text_ckeditor.cms_plugins import TextPlugin
+from djangocms_text.cms_plugins import TextPlugin
 
 from .conf import settings
 from .models import Article, Title

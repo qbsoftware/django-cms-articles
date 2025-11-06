@@ -35,7 +35,7 @@ INSTALLED_APPS = [
     "django.contrib.auth",
     "django.contrib.contenttypes",
     "django.contrib.sites",
-    "djangocms_text_ckeditor",
+    "djangocms_text",
     "easy_thumbnails",
     "filer",
     "cms",

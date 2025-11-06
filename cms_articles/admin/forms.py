@@ -5,7 +5,7 @@ from django.forms.utils import ErrorList
 from django.utils.text import slugify
 from django.utils.timezone import now
 from django.utils.translation import gettext_lazy as _
-from djangocms_text_ckeditor.fields import HTMLFormField
+from djangocms_text.fields import HTMLFormField
 
 from ..conf import settings
 from ..models import Article, Title

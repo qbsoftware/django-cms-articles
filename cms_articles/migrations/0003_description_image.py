@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 from django.db import migrations, models
 import django.db.models.deletion
-import djangocms_text_ckeditor.fields
+import djangocms_text.fields
 import filer.fields.image
 
 
@@ -19,7 +19,7 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name="title",
             name="description",
-            field=djangocms_text_ckeditor.fields.HTMLField(
+            field=djangocms_text.fields.HTMLField(
                 blank=True,
                 default="",
                 help_text="The text displayed in an articles overview.",

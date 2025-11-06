@@ -17,11 +17,11 @@ use_parentheses = true
 name = "django-cms-articles"
 version = "2.1.5"
 description = "django CMS application for managing articles"
-authors = ["Jakub Dorňák <jakub.dornak@qbsoftware.com>"]
+authors = ["Jakub Dorňák <jakub.dornak@qbsoftware.cz>"]
 license = "BSD-3-Clause"
 readme = "README.md"
 packages = [{include = "cms_articles"}]
-repository = "https://github.com/misli/django-cms-articles"
+repository = "https://github.com/qbsoftware/django-cms-articles"
 classifiers = [
     "Development Status :: 5 - Production/Stable",
     "Environment :: Web Environment",
@@ -41,14 +41,14 @@ classifiers = [
 ]
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = ">=3.9,<4.0"
 Django = "<4"
 django-cms = "<3.12"
 django-filer = "*"
-djangocms-text-ckeditor = "*"
+djangocms-text = "*"
 python-dateutil = "*"
 
-[tool.poetry.dev-dependencies]
+[tool.poetry.group.dev.dependencies]
 black = "*"
 flake8 = "*"
 isort = "*"
